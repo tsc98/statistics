@@ -8,7 +8,7 @@ from math import sqrt
 import matplotlib
 
 class Sample:
-    def __init__(self, population, std_p, mean_p, sample_values):
+    def __init__(self, population, std_p, mean_p, sample_values): # Population size, Population Standard deviation, Population mean, and the sample values
         # If there are any values missing use '0'
         self.sample_values = sample_values
         self.mean_p = mean_p
