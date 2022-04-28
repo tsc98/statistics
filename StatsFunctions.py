@@ -5,6 +5,7 @@ import numpy as np
 import pandas as pd
 from scipy.stats import zscore, norm, f
 from math import sqrt
+import matplotlib
 
 class Sample:
     def __init__(self, population, std_p, mean_p, sample_values):
